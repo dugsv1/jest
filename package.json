@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack"
   },
   "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
     "@eslint/js": "^9.21.0",
+    "babel-jest": "^29.7.0",
     "css-loader": "^7.1.2",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.0.1",
